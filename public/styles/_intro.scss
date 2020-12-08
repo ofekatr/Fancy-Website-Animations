@@ -1,0 +1,27 @@
+.intro {
+  background: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro-text {
+  font-family: "Heebo", sans-serif;
+  font-size: 2rem;
+  color: var(--intro-text);
+}
+
+.hide {
+  background: black;
+  overflow: hidden;
+  span {
+    display: inline-block;
+    transform: translateY(100%);
+  }
+}

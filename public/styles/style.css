@@ -1,1 +1,118 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+:root {
+  --intro-text: #b8b8b8;
+  --main-text: #a8a8a8;
+  --slider: #080808;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+main {
+  font-family: "Heebo", sans-serif;
+  color: var(--main-text);
+}
+
+.landing {
+  min-height: 100vh;
+  background: url("../images/witcher.jpg");
+  background-size: cover;
+  padding: 0 5rem;
+}
+
+.big-title {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -30%);
+          transform: translate(-50%, -30%);
+  font-family: "Lobster", cursive;
+  font-size: 5rem;
+  color: var(--main-text);
+  text-transform: uppercase;
+}
+
+#logo {
+  font-family: "Lobster", sans-serif;
+  font-weight: lighter;
+  font-size: 2rem;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-height: 5rem;
+}
+
+.navbar-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.nav-item {
+  margin-left: 10rem;
+}
+
+.nav-link {
+  color: var(--main-text);
+  text-decoration: none;
+}
+
+.intro {
+  background: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.intro-text {
+  font-family: "Heebo", sans-serif;
+  font-size: 2rem;
+  color: var(--intro-text);
+}
+
+.hide {
+  background: black;
+  overflow: hidden;
+}
+
+.hide span {
+  display: inline-block;
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+}
+
+.slider {
+  background: var(--slider);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+}
+/*# sourceMappingURL=style.css.map */

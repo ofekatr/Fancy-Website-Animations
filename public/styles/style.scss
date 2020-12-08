@@ -1,0 +1,45 @@
+:root {
+    --intro-text: #b8b8b8;
+    --main-text: #a8a8a8;
+    --slider: #080808;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  font-family: "Heebo", sans-serif;
+  color: var(--main-text);
+}
+
+.landing {
+  min-height: 100vh;
+  background: url("../images/witcher.jpg");
+  background-size: cover;
+  padding: 0 5rem;
+}
+
+.big-title {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+
+    font-family: "Lobster", cursive;
+    font-size: 5rem;
+    color: var(--main-text);
+    text-transform: uppercase;
+}
+
+#logo {
+    font-family: "Lobster", sans-serif;
+    font-weight: lighter;
+    font-size: 2rem;
+}
+
+@import "navbar";
+@import "intro";
+@import "slider";

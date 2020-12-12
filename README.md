@@ -1,2 +1,2 @@
 # Witcher 3 Landing Page
-Implements gsap animations.
+Utilizes different gsap animations.
